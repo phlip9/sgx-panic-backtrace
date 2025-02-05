@@ -2,6 +2,8 @@
 
 A small library for printing out panics and backtraces inside an SGX enclave.
 
+**ARCHIVED(2025-02-05):** backtraces are now properly relativized on latest rust std.
+
 ## Why
 
 + Get backtraces working while we wait for `backtrace-rs` to get fixed : )
